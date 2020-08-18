@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 15px;
+
+}
+.blank
+{
+ background: rgb(46, 43, 43);
+ height: 60px;
+ width: 100%;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+nav ul li
+{
+    margin: 0px 20px;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+}
+.logo-img
+{
+    height: 30px;
+    width: 30px;
+}
+header
+{
+    background: yellow;
+    text-align: center;
+    
+}
+h1 
+{
+    font-weight: 500;
+    font-size: 4em;
+    padding-top: 100px;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+header div article 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+header .midsection
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+}
+header img
+{
+    height: 400px;
+    width: 500px;
+}
+header p span
+{
+    font-size:25px ;
+    font-family: 'Heebo', sans-serif;
+}
+.address
+{
+    text-align: center;
+}
+header div
+{
+    display: flex;
+    justify-content: center;
+}
+.watch-button
+{
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    background: white;
+    border-radius: 50px;
+    padding: 20px;
+    width: 200px;
+    letter-spacing: 3px;
+}
+                
+#footer-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px;
+}
+footer h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+
+}
+#footer-container div
+{
+    display: flex;
+    flex-direction: column;
+
+}
+footer ul
+{
+    list-style: none;
+    padding: 15px 0px;
+}
+footer ul li
+{
+    color: gray;
+    padding: 5px 0px;
+    opacity: 0.6;
+}
+footer ul li:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+.language
+{
+    margin-left: 200px;
+    padding:15px 0px
+}
+select
+{
+    width: 200px;
+    padding: 10px;
+}
+section
+{
+    background: rgb(46, 43, 43);
+}
+section ul
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 10px;
+    list-style: none;
+    margin-left: 200px;
+}
+section ul li
+{
+   padding-right: 30px;
+   margin-top: 20px;
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 15px;
+}
+
+
