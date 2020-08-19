@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -29,15 +29,24 @@ nav ul li a
     text-decoration: none;
     color: black;
     margin: 0px 20px;
-    font-weight: 600;
-    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
     cursor: pointer;
+}
+nav ul li:last-child
+{
+    margin-right: 200px;
+}
+nav ul li a:hover
+{
+    border-bottom: 2px solid gray;
 }
 
 .logo-img
 {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
 }
 header
 {
@@ -79,14 +88,15 @@ header p span
     font-size:25px ;
     font-family: 'Heebo', sans-serif;
 }
-.address
-{
-    text-align: center;
-}
 header div
 {
     display: flex;
     justify-content: center;
+}
+.img-name
+{
+    width: 210px;
+    height: 100px;
 }
 .watch-button
 {
