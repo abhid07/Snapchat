@@ -136,6 +136,7 @@ footer ul li:hover
 {
     opacity: 1;
     cursor: pointer;
+    color: black;
 }
 .language
 {
